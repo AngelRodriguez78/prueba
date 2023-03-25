@@ -2,13 +2,102 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styles.css">
-    <title>Document</title>
+    <title>Sitio Web Responsive</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/assets/js/main.js"></script>
 </head>
+
 <body>
-    
-</body>
-<script></script>
-</html>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="#"><img src="/assets/img/logo 1.svg" alt=""></a>
+            </div>
+            <nav>
+                <div class="hamburger-menu">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+                <ul class="menu">
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Acerca de</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="slider">
+                <div class="slide slide1"></div>
+                <div class="slide slide2"></div>
+                <div class="slide slide3"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <div class="feature">
+                <img src="img/feature1.jpg" alt="Feature 1">
+                <h3>Característica 1</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="feature">
+                <img src="img/feature2.jpg" alt="Feature 2">
+                <h3>Característica 2</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="feature">
+                <img src="img/feature3.jpg" alt="Feature 3">
+                <h3>Característica 3</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="feature">
+                <img src="img/feature4.jpg" alt="Feature 4">
+                <h3>Característica 4</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="feature">
+                <img src="img/feature5.jpg" alt="Feature 5">
+                <h3>Característica 5</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="admin-panel">
+        <div class="container">
+            <h2>Panel de administración</h2>
+            <form>
+                <input type="file" name="file" id="file">
+                <label for="file">Selecciona una imagen</label>
+                <input type="submit" value="Subir">
+            </form>
+        </div>
+        <footer>
+            <div class="container">
+              <div class="contact">
+                <h3>Contacto</h3>
+                <p>123 Calle Falsa</p>
+                <p>123-456-7890</p>
+                <p>info@ejemplo.com</p>
+              </div>
+              <form class="contact-form">
+                <h3>Envíanos un mensaje</h3>
+                <label for="name">Nombre</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Correo electrónico</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Mensaje</label>
+                <textarea id="message" name="message" required></textarea>
+                <input type="submit" value="Enviar">
+              </form>
+            </div>
+          </footer>
+        </body>
+        </html>
